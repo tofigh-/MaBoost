@@ -1,0 +1,12 @@
+##useDynLib(maboost)
+import(rpart)
+import(C50)
+export(maboost,varplot.maboost)
+
+S3method(summary,maboost)
+S3method(print,maboost)
+S3method(predict,maboost)
+S3method(update,maboost)
+
+S3method(maboost,formula)
+S3method(maboost,default)

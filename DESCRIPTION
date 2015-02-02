@@ -1,0 +1,31 @@
+Package: maboost
+Version: 1.0-0
+Date: 2014-11-01
+Title: maboost: Binary and multiclass boosting based on the boosting algorithm
+    suggested in 'Boosting on grounds of online learning`
+Author: Tofigh Naghibi
+Depends:
+    R(>= 2.10),rpart,C50
+Description: Performs binary and multiclass boosting in maxmargin, sparse,
+    smooth and normal settings. It accepts two Bregman divergences:
+    KL-divergence and L2 divergence. For further information please look at the
+    following reference.
+Maintainer: Tofigh Naghibi <tofigh@gmail.com>
+License: GPL (>= 2)
+Packaged: 2014-11-01 14:49:05 UTC; mculp
+Repository: CRAN
+Date/Publication: 2014-11-09 14:57:03
+Collate:
+    'maboost-package.r'
+    'maboost.R'
+    'maboost.default.R'
+    'maboost.formula.R'
+    'maboost.machine.bin.R'
+    'maboost.machine.multi.R'
+    'predict.maboost.R'
+    'print.maboost.R'
+    'projsplx.R'
+    'projsplx_k.R'
+    'summary.maboost.R'
+    'update.maboost.R'
+    'varplot.maboost.R'
