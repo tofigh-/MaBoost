@@ -1,5 +1,5 @@
 # MaBoost
-MaBoost is a binary and multiclass classification package.
+MaBoost is a binary and multiclass classification package in R.
 
 It is based on boosting method and contains different classifiation algorithms including:
 (I) sparseboost which uses a percentage of samples at each boosting round,
